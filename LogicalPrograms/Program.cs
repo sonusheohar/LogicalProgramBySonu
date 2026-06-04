@@ -1,6 +1,6 @@
 ﻿using LogicalPrograms.Topic.Strings_Programs;
 
-CheckPalindromeString checkPalindromeString=new CheckPalindromeString();
-bool checkPalindromeBoolean= checkPalindromeString.IsPalindromeUsingTwoPointers("madam");
-Console.WriteLine(checkPalindromeBoolean);
+CountVowels countVowels = new CountVowels();
+int count= countVowels.CountVowelsUsingSwitch("sonu");
+Console.WriteLine(count);
 Console.ReadKey();
