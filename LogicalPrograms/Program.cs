@@ -1,6 +1,6 @@
 ﻿using LogicalPrograms.Topic.Strings_Programs;
 
-CountVowels countVowels = new CountVowels();
-int count= countVowels.CountVowelsUsingSwitch("sonu");
+CountWords countWords = new CountWords();
+int count= countWords.CountWordsUsingCharArray("I am a .NET Developer");
 Console.WriteLine(count);
 Console.ReadKey();
